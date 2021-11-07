@@ -310,10 +310,10 @@ margin: 20px auto;
 }
 
 .app-download .app-download-item img{
-    height: 40px;
-    width: 40px;
+    height: auto;
+    width: 4em !important ;
     align-items: center;
-    text-align: center;
+    margin: 0 0 10px 8em;
 }
 .app-download-item{
     background-color: white;
@@ -337,20 +337,20 @@ margin: 20px auto;
     position: relative;
 }
 .contact-info-item i {
-position: absolute;
+position: sticky;
 height: auto;
 }
 .contact-info-item h4{
     font-size: 18px;
     font-weight: 400;
-    margin: 0 0 10px;
+    margin: 10px 0 10px;
     color: black;
 
 }
 .contact-info-item p{
     font-size: 16px;
     font-weight: 300 ;
-    margin: 0;
+    margin: 5px;
     line-height: 26px;
     color: #001F43;
 }
